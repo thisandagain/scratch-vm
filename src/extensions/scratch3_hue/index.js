@@ -184,7 +184,7 @@ class PhilipsHue {
      */
     _xhr (req, callback) {
         // Set HTTP request defaults
-        req.uri = `http://${this._host}${req.uri}`;
+        req.uri = `https://${this._host}${req.uri}`;
         req.timeout = HTTP_TIMEOUT;
 
         // Log request
