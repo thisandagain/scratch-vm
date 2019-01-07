@@ -28,7 +28,7 @@ const builtinExtensions = {
     videoSensing: Scratch3VideoSensingBlocks,
     speech2text: Scratch3Speech2TextBlocks,
     ev3: Scratch3Ev3Blocks,
-    posenet: Scratch3Scratch3PoseNetBlocks
+    bodySensing: Scratch3Scratch3PoseNetBlocks
 };
 
 /**
